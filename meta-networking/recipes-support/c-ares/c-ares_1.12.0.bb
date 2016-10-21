@@ -1,6 +1,6 @@
 # Copyright (c) 2012-2014 LG Electronics, Inc.
 
-DESCRIPTION = "c-ares is a C library that resolves names asynchronously."
+SUMMARY = "c-ares is a C library that resolves names asynchronously."
 HOMEPAGE = "http://daniel.haxx.se/projects/c-ares/"
 SECTION = "libs"
 LICENSE = "MIT"
