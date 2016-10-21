@@ -4,12 +4,12 @@ DESCRIPTION = "c-ares is a C library that resolves names asynchronously."
 HOMEPAGE = "http://daniel.haxx.se/projects/c-ares/"
 SECTION = "libs"
 LICENSE = "MIT"
-LIC_FILES_CHKSUM = "file://ares_init.c;beginline=1;endline=3;md5=53f5ecf4c22c37cf1ddd1ef8f8eccce0"
+LIC_FILES_CHKSUM = "file://LICENSE.md;md5=f4b026880834eb01c035c5e5cb47ccac"
 
 SRC_URI = "http://c-ares.haxx.se/download/${BP}.tar.gz \
            file://0001-configure.ac-don-t-override-passed-cflags.patch \
 "
-SRC_URI[md5sum] = "d5c6d522cfc54bb6f215a0b7912d46be"
-SRC_URI[sha256sum] = "b3612e6617d9682928a1d50c1040de4db6519f977f0b25d40cf1b632900b3efd"
+SRC_URI[md5sum] = "2ca44be1715cd2c5666a165d35788424"
+SRC_URI[sha256sum] = "8692f9403cdcdf936130e045c84021665118ee9bfea905d1a76f04d4e6f365fb"
 
 inherit autotools pkgconfig
