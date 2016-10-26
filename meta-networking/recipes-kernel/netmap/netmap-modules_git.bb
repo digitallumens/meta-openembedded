@@ -44,6 +44,8 @@ python __anonymous () {
 LDFLAGS := "${@'${LDFLAGS}'.replace('-Wl,-O1', '')}"
 LDFLAGS := "${@'${LDFLAGS}'.replace('-Wl,--as-needed', '')}"
 
+SRC_URI += "file://0001-netmap-Rename-the-_conut-to-_recount.patch"
+
 do_configure () {
     cd ${S}/LINUX
     ./configure ${EXTRA_OECONF}
